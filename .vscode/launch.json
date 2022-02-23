@@ -2,14 +2,27 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run aseprite_py",
+            "name": "Lint",
             "type": "python",
             "request": "launch",
-            "program": "src/aseprite_py/app.py",
-            "console": "integratedTerminal"
+            "module": "flake8",
+            "args": [
+                "src",
+                "tests"
+            ]
         },
         {
-            "name": "Run aseprite_py Tests",
+            "name": "Analyze",
+            "type": "python",
+            "request": "launch",
+            "module": "mypy",
+            "args": [
+                "src",
+                "tests"
+            ],
+        },
+        {
+            "name": "Test",
             "type": "python",
             "request": "launch",
             "module": "behave",

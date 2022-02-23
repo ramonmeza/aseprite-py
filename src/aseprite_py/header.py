@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List, Optional
+from typing import Optional
 
 from .types import BYTE, BYTES_LIST, DWORD, SHORT, WORD
 from .types import to_byte, to_bytes_list, to_dword, to_short, to_word
