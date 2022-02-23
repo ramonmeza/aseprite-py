@@ -10,8 +10,8 @@ TESTS=tests
 
 TEST_DATA=${TESTS}/data
 
-TEMPLATE_KEYWORD=template
-PROJECT_NAME=not_set
+TEMPLATE_KEYWORD=aseprite_py
+PROJECT_NAME=aseprite_py
 PROJECT_TEST_FEATURES=${TESTS}/${PROJECT_NAME}/features
 
 
@@ -38,7 +38,7 @@ TEST_CMD=python3 -m behave
 rename:
 
 # rename the project name in this Makefile
-	sed -i 's/PROJECT_NAME=.*/PROJECT_NAME=${PROJECT_NAME}/g' Makefile
+	sed -i 's/PROJECT_NAME=aseprite_py
 
 # rename within github action
 	sed -i 's/${TEMPLATE_KEYWORD}/${PROJECT_NAME}/g' .github/workflows/${TEMPLATE_KEYWORD}.yml

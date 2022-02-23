@@ -2,19 +2,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run template",
+            "name": "Run aseprite_py",
             "type": "python",
             "request": "launch",
-            "program": "src/template/app.py",
+            "program": "src/aseprite_py/app.py",
             "console": "integratedTerminal"
         },
         {
-            "name": "Run template Tests",
+            "name": "Run aseprite_py Tests",
             "type": "python",
             "request": "launch",
             "module": "behave",
             "args": [
-                "tests/template/features"
+                "tests/aseprite_py/features"
             ]
         }
     ]

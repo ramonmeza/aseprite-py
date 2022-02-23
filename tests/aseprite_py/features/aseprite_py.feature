@@ -1,6 +1,6 @@
-Feature: template
+Feature: aseprite_py
 
-    This is just a template feature file. It doesn't do anything and you should
+    This is just a aseprite_py feature file. It doesn't do anything and you should
     definitely change it. Tests are good.
 
     Scenario: Example Scenario

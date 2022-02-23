@@ -10,7 +10,7 @@
         "**/.env": true
     },
     "cucumberautocomplete.steps": [
-        "tests/template/features/steps/*.py"
+        "tests/aseprite_py/features/steps/*.py"
     ],
     "cucumberautocomplete.strictGherkinCompletion": true
 }

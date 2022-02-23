@@ -1,4 +1,4 @@
-name: template
+name: aseprite_py
 
 on: [ push, pull_request ]
 
