@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run template",
+            "type": "python",
+            "request": "launch",
+            "program": "src/template/app.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run template Tests",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "args": [
+                "tests/template/features"
+            ]
+        }
+    ]
+}
